@@ -22,7 +22,7 @@ jobs:
           WP_USERNAME:      ${{ secrets.WP_USERNAME }}
           WP_APP_PASSWORD:  ${{ secrets.WP_APP_PASSWORD }}
           WP_BASE_URL:      ${{ secrets.WP_BASE_URL }}
-        run: python kh.py
+        run: python lk.py
       - name: Upload Excel output as artifact
         if: always()
         uses: actions/upload-artifact@v4
